@@ -1,7 +1,7 @@
 name: buildingbock
 on: push
 
-job:
+jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
