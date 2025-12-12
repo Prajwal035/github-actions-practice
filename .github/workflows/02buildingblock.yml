@@ -1,0 +1,9 @@
+name: buildingbock
+on: push
+
+job:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show the trigger
+        run: echo "I have been triggered ${{ github.event_name }} event."
